@@ -1,4 +1,4 @@
-# Yonmoku
+# Yonmoku-DXLib
 
 `Yonmoku` is 4x4 TIC TAC TOE in 3D.
 
