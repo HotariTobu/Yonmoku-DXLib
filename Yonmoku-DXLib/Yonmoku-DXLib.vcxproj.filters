@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\start">
+      <UniqueIdentifier>{7926e1c4-6c49-4037-bb9f-2c627ac90e7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\start">
+      <UniqueIdentifier>{aed5161c-d9ac-4b3d-bd9a-470f9c9dac87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\gui">
+      <UniqueIdentifier>{72e46bb2-e4b4-4db9-96ab-003325927433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\gui">
+      <UniqueIdentifier>{bbc1e4f9-d7ce-409a-b8ff-b325219fb4f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\stage">
+      <UniqueIdentifier>{f593ebba-daeb-410f-83fd-419d8a46eae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\stage">
+      <UniqueIdentifier>{fa88930d-6d9f-4215-a614-e276227da48f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Start.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="PvP.cpp">
+      <Filter>ソース ファイル\start</Filter>
+    </ClCompile>
+    <ClCompile Include="Stand.cpp">
+      <Filter>ソース ファイル\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stone.cpp">
+      <Filter>ソース ファイル\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="StartUp.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="EXIT.cpp">
+      <Filter>ソース ファイル\start</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="PvC.cpp">
+      <Filter>ソース ファイル\start</Filter>
+    </ClCompile>
+    <ClCompile Include="CvC.cpp">
+      <Filter>ソース ファイル\start</Filter>
+    </ClCompile>
+    <ClCompile Include="Yes.cpp">
+      <Filter>ソース ファイル\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="No.cpp">
+      <Filter>ソース ファイル\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Cancel.cpp">
+      <Filter>ソース ファイル\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>ソース ファイル\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>ソース ファイル\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Connection.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui.cpp">
+      <Filter>ソース ファイル\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="COM.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EXIT.h">
+      <Filter>ヘッダー ファイル\start</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Start.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PvP.h">
+      <Filter>ヘッダー ファイル\start</Filter>
+    </ClInclude>
+    <ClInclude Include="PvC.h">
+      <Filter>ヘッダー ファイル\start</Filter>
+    </ClInclude>
+    <ClInclude Include="CvC.h">
+      <Filter>ヘッダー ファイル\start</Filter>
+    </ClInclude>
+    <ClInclude Include="Yes.h">
+      <Filter>ヘッダー ファイル\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="No.h">
+      <Filter>ヘッダー ファイル\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Cancel.h">
+      <Filter>ヘッダー ファイル\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>ヘッダー ファイル\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>ヘッダー ファイル\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Connection.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui.h">
+      <Filter>ヘッダー ファイル\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Stone.h">
+      <Filter>ヘッダー ファイル\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stand.h">
+      <Filter>ヘッダー ファイル\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="COM.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Yonmoku-DXLib.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="AppIcon.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
